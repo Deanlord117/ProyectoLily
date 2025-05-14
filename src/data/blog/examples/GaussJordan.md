@@ -21,13 +21,13 @@ tags:
   </figcaption>
 </figure>
 
-## Historia de la serie de Taylor
+## Historia del Metodo Gauss-Jordan
 El método de Gauss-Jordan es una extensión de la eliminación gaussiana, desarrollado por Wilhelm Jordan en el siglo XIX. Este método permite llevar una matriz a su forma reducida por filas, facilitando la obtención de la inversa de una matriz y la solución directa de sistemas de ecuaciones. Wikipedia
 
 Jordan presentó este método en su obra Handbuch der Vermessungskunde, publicada en 1888. La técnica ha sido ampliamente adoptada en la enseñanza de álgebra lineal y en aplicaciones computacionales debido a su eficiencia y claridad en la resolución de sistemas lineales.ms.uky.edu
 
 
-## Funciones de la serie de Taylor
+## Funciones del Metodo Gauss-Jordan
 
 La eliminación de Gauss-Jordan es un algoritmo fundamental del álgebra lineal, utilizado para resolver sistemas de ecuaciones lineales y hallar la inversa de matrices. Se basa en aplicar operaciones elementales de fila —intercambiar filas, multiplicar una fila por un escalar distinto de cero, o sumar múltiplos de una fila a otra— para transformar una matriz en su forma escalonada reducida (también llamada forma canónica).
 

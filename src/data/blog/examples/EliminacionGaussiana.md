@@ -22,13 +22,13 @@ tags:
   </figcaption>
 </figure>
 
-## Historia de la serie de Taylor
+## Historia de la Eliminacion Guassiana
 La eliminación gaussiana es un procedimiento algorítmico para resolver sistemas de ecuaciones lineales. Aunque el método es atribuido a Carl Friedrich Gauss, sus raíces se remontan a la antigua China, específicamente al texto matemático Los Nueve Capítulos sobre el Arte Matemático, compilado alrededor del siglo I a.C. En este texto, se describen procedimientos similares para resolver sistemas de ecuaciones lineales. ScienceDirect
 
 Gauss formalizó y popularizó el método en el siglo XIX, aplicándolo en sus trabajos de astronomía y geodesia. Su enfoque sistemático permitió resolver sistemas de ecuaciones de gran tamaño, siendo fundamental para el desarrollo de la matemática computacional.
 
 
-### Funciones de la eliminación gaussiana
+### Funciones de la Eliminacion Gaussiana
 
 La eliminación gaussiana puede verse no solo como un algoritmo, sino como una serie de transformaciones que preservan la solución del sistema, pero lo reescriben de una forma más manejable. A nivel teórico, se pueden identificar estas "funciones" o ideas clave:
 
