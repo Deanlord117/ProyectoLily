@@ -9,7 +9,7 @@ tags:
   - Python
   - Grafica
   - Serie
-  -Taylor
+  - Taylor
 ---
 
 <figure>
