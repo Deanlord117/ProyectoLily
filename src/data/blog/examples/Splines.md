@@ -385,5 +385,5 @@ El método de splines es una técnica de interpolación que utiliza funciones po
 
 La relevancia de los splines radica en que, a diferencia de la interpolación polinómica clásica, no solo proporciona una buena aproximación a los datos, sino que también asegura continuidad en las derivadas de la función interpolante, lo que los hace ideales para problemas de suavizado y modelado en áreas como la ingeniería y las ciencias aplicadas (Fritsch & Carlson, 1980).
 
-Fritsch, F. N., & Carlson, R. E. (1980). Monotone Piecewise Cubic Interpolation. SIAM Journal on Numerical Analysis, 17(2), 238–246. https://doi.org/10.1137/0717022
+Fritsch, F. N., & Carlson, R. E. (1980). Monotone Piecewise Cubic Interpolation. SIAM Journal on Numerical Analysis, 17(2), 238–246. https://doi.org/10.1137/0717022.
 

@@ -17,7 +17,7 @@ Este proyecto es el resultado del trabajo en equipo, donde cada miembro ha aport
 Pasé bastante tiempo instalando todos los recursos, y mi Mac… bueno, digamos que no estuvo nada feliz. Pero lo logré. Todo el proceso de configurar el entorno fue un desafío, pero también aprendí mucho en el camino. Así que, si estás aquí, es porque todo valió la pena.
 
 
-  ![Texto alternativo](/src/assets/images/EscritorioFoto.jpg)
+  ![Texto alternativo](@/assets/images/EscritorioFoto.jpg)
 
 Aquí tienes una propuesta para el apartado **About** de tu blog de métodos numéricos, escrito como si lo hubiera redactado tu compa Gael:
 
@@ -25,9 +25,9 @@ Aquí tienes una propuesta para el apartado **About** de tu blog de métodos num
 
 ## Sobre el Blog
 
-¡Hola, raza! Soy Gael, el compa de Adrián, y me tocó escribir este pequeño "About" para su blog de métodos numéricos. Aquí no vas a encontrar solo teoría aburrida y fórmulas sin sentido; la idea es que cada método esté explicado de forma clara, con ejemplos prácticos y hasta su respectivo código en Python, porque sabemos que la práctica es lo que realmente cuenta.
+¡Hola, raza! Soy Gael, el compa de Adrián, y me tocó escribir este pequeño "About" para el blog de métodos numéricos. Aquí no vas a encontrar solo teoría aburrida y fórmulas sin sentido; la idea es que cada método esté explicado de forma clara, con ejemplos prácticos y hasta su respectivo código en Python, porque sabemos que la práctica es lo que realmente cuenta.
 
-Adrián tiene un estilo único para desmenuzar los temas, va directo al grano y sin rodeos. Aquí no se trata de memorizar, se trata de entender cómo funcionan las cosas y aplicarlas como se debe. Además, en cada post se incluye una gráfica para que veas el método en acción, porque una imagen siempre dice más que mil palabras.
+  Aquí no se trata de memorizar, se trata de entender cómo funcionan las cosas y aplicarlas como se debe. Además, en cada post se incluye una gráfica para que veas el método en acción, porque una imagen siempre dice más que mil palabras.
 
 
 ## Sobre el Blog

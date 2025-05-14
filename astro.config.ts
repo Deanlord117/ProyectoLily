@@ -31,9 +31,15 @@ export default defineConfig({
   },
   vite: {
     plugins: [tailwindcss()],
+    resolve: {
+      alias: {
+        "@": "/src",
+      },
+    },
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
     },
+  
   },
   image: {
     // Used for all Markdown images; not configurable per-image
