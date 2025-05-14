@@ -266,7 +266,7 @@ x_sol
 ```
 ## Grafica
   ![Texto alternativo](@/assets/images/Montante.png)
-    ![Texto alternativo](@/assets/images/Gauss-Jordan-copy.jpg)
+  
   
   <div class="video-wrapper">
   <div class="video-container">
