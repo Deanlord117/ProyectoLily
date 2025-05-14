@@ -1,5 +1,5 @@
 export const SITE = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
+  website: "https://proyecto-lily.vercel.app/", // replace this with your deployed domain
   author: "Sat Naing",
   profile: "",
   desc: "una coleccion de metodos numericos y algoritmos de optimizacion",

@@ -1,17 +1,16 @@
 ---
 import { SHARE_LINKS } from "@/constants";
 import LinkButton from "./LinkButton.astro";
+import { SITE } from "@/config";
 
 const { title } = Astro.props;
 
-const urlObj = new URL(Astro.request.url);
-const fullUrl = `${urlObj.origin}${urlObj.pathname}`;
-
+// Generar la URL completa tomando el dominio desde la configuración
+const fullUrl = `${SITE.website}${Astro.url.pathname}`;
 
 const shareMessage = `Mira este post:  `;
-const encUrl     = encodeURIComponent(fullUrl);
-const encMsg     = encodeURIComponent(shareMessage);
-
+const encUrl = encodeURIComponent(fullUrl);
+const encMsg = encodeURIComponent(shareMessage);
 
 const finalLinks = SHARE_LINKS.map(link => {
   if (link.name === "Facebook") {
@@ -29,7 +28,6 @@ const finalLinks = SHARE_LINKS.map(link => {
 });
 ---
 
-
 <div class="flex flex-col items-center gap-2">
   <span class="italic">Comparte este post en:</span>
   <div class="flex space-x-3">
@@ -38,7 +36,6 @@ const finalLinks = SHARE_LINKS.map(link => {
         href={href}
         title={linkTitle}
         class="scale-90 p-2 hover:rotate-6"
-     
       >
         <Icon class="inline-block w-6 h-6 stroke-current stroke-2 opacity-90" />
         <span class="sr-only">{linkTitle}</span>
@@ -46,4 +43,3 @@ const finalLinks = SHARE_LINKS.map(link => {
     ))}
   </div>
 </div>
-
