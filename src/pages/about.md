@@ -19,11 +19,7 @@ Denle ánimos a mi Mac, que aguantó horas y horas de trabajo sin descanso.
 
   ![Texto alternativo](@/assets/images/EscritorioFoto.jpg)
 
-## Sobre el Blog
-
 ¡Hola, raza! Soy Gael Les puedo decir que aquí no vas a encontrar solo teoría aburrida y fórmulas sin sentido; la idea es que cada método esté explicado de forma clara, con ejemplos prácticos y hasta su respectivo código en Python, porque sabemos que la práctica es lo que realmente cuenta.
-
-## Sobre el Blog
 
 ¿Qué onda, raza? Aquí Chavana al habla
 
