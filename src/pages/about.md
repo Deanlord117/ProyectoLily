@@ -29,16 +29,12 @@ Aquí tienes una propuesta para el apartado **About** de tu blog de métodos num
 
 Adrián tiene un estilo único para desmenuzar los temas, va directo al grano y sin rodeos. Aquí no se trata de memorizar, se trata de entender cómo funcionan las cosas y aplicarlas como se debe. Además, en cada post se incluye una gráfica para que veas el método en acción, porque una imagen siempre dice más que mil palabras.
 
-Si estás en la universidad, estás codeando un proyecto, o simplemente quieres entender mejor los métodos numéricos, este blog es para ti.
 
 ## Sobre el Blog
 
 ¿Qué onda, raza? Aquí Chavana al habla
 
  Aquí no hay teorías enredadas ni fórmulas que solo se quedan en el pizarrón; todo se aterriza con ejemplos claros y código en Python que puedes usar para tus proyectos. Además, siempre viene con su gráfica para que no solo lo entiendas, sino que también lo veas en acción.
-
-Este blog no es solo para aprender, es para entender.
-
 
 
 
