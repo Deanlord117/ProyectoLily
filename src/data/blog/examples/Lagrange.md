@@ -125,11 +125,11 @@ $$
 
 
 Sumamos los términos:
-
+<div class="markdown-content">
 $$
 P(x) = -\frac{5}{2}x^2 + \frac{9}{2}x + 1
 $$
-
+</div>
 
 Resultado final
 
