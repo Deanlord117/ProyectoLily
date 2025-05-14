@@ -95,13 +95,15 @@ Calculamos cada $\ell_i(x)$:
 Iteracion #1     $i=0$, $j=1,2$
 
 $$
-\ell_0(x) = \frac{(x - 1)(x - 2)}{(0 - 1)(0 - 2)} = \frac{1}{2}(x^2-3x+2)
+\ell_0(x) = \frac{(x - 1)(x - 2)}{(0 - 1)(0 - 2)} 
+= \frac{1}{2}(x^2-3x+2)
 $$
 
 Iteracion #2     $i=1$, $j=0,2$
 
 $$
-\ell_1(x) = \frac{(x - 0)(x - 2)}{(1 - 0)(1 - 2)} = \frac{x(x - 2)}{-1} = -(x^2 - 2x)
+\ell_1(x) = \frac{(x - 0)(x - 2)}{(1 - 0)(1 - 2)}
+ = \frac{x(x - 2)}{-1} = -(x^2 - 2x)
 $$
 
 Iteracion #3     $i=2$, $j=0,1$
@@ -125,11 +127,11 @@ $$
 
 
 Sumamos los términos:
-<div class="markdown-content">
+
 $$
 P(x) = -\frac{5}{2}x^2 + \frac{9}{2}x + 1
 $$
-</div>
+
 
 Resultado final
 

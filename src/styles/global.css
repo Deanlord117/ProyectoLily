@@ -57,3 +57,14 @@ html[data-theme="dark"] {
 .active-nav {
   @apply underline decoration-wavy decoration-2 underline-offset-4;
 }
+.katex-display {
+  overflow-x: auto;
+  display: block;
+  max-width: 100%;
+  font-size: 1.2rem;
+}
+@media (max-width: 768px) {
+  .katex-display {
+    font-size: 0.9rem;
+  }
+}
