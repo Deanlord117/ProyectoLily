@@ -19,10 +19,6 @@ Pasé bastante tiempo instalando todos los recursos, y mi Mac… bueno, digamos 
 
   ![Texto alternativo](@/assets/images/EscritorioFoto.jpg)
 
-Aquí tienes una propuesta para el apartado **About** de tu blog de métodos numéricos, escrito como si lo hubiera redactado tu compa Gael:
-
----
-
 ## Sobre el Blog
 
 ¡Hola, raza! Soy Gael, el compa de Adrián, y me tocó escribir este pequeño "About" para el blog de métodos numéricos. Aquí no vas a encontrar solo teoría aburrida y fórmulas sin sentido; la idea es que cada método esté explicado de forma clara, con ejemplos prácticos y hasta su respectivo código en Python, porque sabemos que la práctica es lo que realmente cuenta.

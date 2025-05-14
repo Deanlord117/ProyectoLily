@@ -265,7 +265,7 @@ x_sol
 [1.45454545 2.5 6 ]
 ```
 ## Grafica
-  ![Texto alternativo](/src/assets/images/Montante.png)
+  ![Texto alternativo](@/assets/images/Montante.png)
   <div class="video-wrapper">
   <div class="video-container">
     <iframe

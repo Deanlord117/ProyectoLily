@@ -260,7 +260,7 @@ plt.show()
 Coeficientes del polinomio interpolante: [ 2.  -0.5  0.5]
 ```
 ## Grafica
-  ![Texto alternativo](/src/assets/images/interpolacion.png)
+  ![Texto alternativo](@/assets/images/interpolacion.png)
 
 ## Explicación visual de las reglas de rnterpolacion resolviendo $Ax=b$
 

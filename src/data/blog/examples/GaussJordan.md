@@ -292,7 +292,7 @@ plt.show()
 ### Grafica
 
 
-  ![Texto alternativo](/src/assets/images/Gauss-Jordan.png)
+  ![Texto alternativo](@/assets/images/Gauss-Jordan.png)
 
 
 ## Explicación visual de la serie de Taylor

@@ -364,7 +364,7 @@ plt.show()
 Solución del sistema: [1.64285714 0.57142857]
 ```
   ## Grafica 
-  ![Texto alternativo](/src/assets/images/reglacramer.png)
+  ![Texto alternativo](@/assets/images/reglacramer.png)
 
 
   # Explicacion visual

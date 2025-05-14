@@ -388,7 +388,7 @@ f(raíz) = -0.0027456728
 ```
 
   ## Grafica 
-  ![Texto alternativo](/src/assets/images/ReglaFalsa.png)
+  ![Texto alternativo](@/assets/images/ReglaFalsa.png)
 
   # Explicacion visual
  <div class="video-wrapper">

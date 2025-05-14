@@ -337,7 +337,7 @@ Valores de x: [1.378787878787879, 1.3181298994992197, 1.3243964608211145, 1.3247
 ```
 
   ## Grafica 
-  ![Texto alternativo](/src/assets/images/Secante.png)
+  ![Texto alternativo](@/assets/images/Secante.png)
 
 ## Explicacion visual
  <div class="video-wrapper">

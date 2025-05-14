@@ -494,7 +494,7 @@ z = -0.29999999999999993
 ### Grafica
 
 
-  ![Texto alternativo](/src/assets/images/EliminacionGaussiana.png)
+  ![Texto alternativo](@/assets/images/EliminacionGaussiana.png)
 
 ## Explicación visual de la serie de Taylor
 

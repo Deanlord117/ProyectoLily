@@ -325,7 +325,7 @@ x3 = 1.0000
 ```
 
 ## Grafica
-  ![Texto alternativo](/src/assets/images/inversa.png)
+  ![Texto alternativo](@/assets/images/inversa.png)
 
 ## Explicacion visual del metodo de la inversa
 

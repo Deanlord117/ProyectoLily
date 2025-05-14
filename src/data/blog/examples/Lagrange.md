@@ -213,7 +213,7 @@ Polinomio de Lagrange:
 ### Grafica
 
 
-  ![Texto alternativo](/src/assets/images/Lagrange.png)
+  ![Texto alternativo](@/assets/images/Lagrange.png)
 
 
 ## Explicación visual de la Interpolación de Lagrange

@@ -290,7 +290,7 @@ Coeficientes: a = 1.39, b = 0.75
 ```
 
 ## Grafica
-  ![Texto alternativo](/src/assets/images/MinimosCuadrados.png)
+  ![Texto alternativo](@/images/MinimosCuadrados.png)
 
 ## Explicacion visual
  <div class="video-wrapper">

@@ -283,7 +283,7 @@ Simpson 3/8 (n=6):   0.743765  Error: 3.0581e-03
 ```
 
 ## Grafica
-  ![Texto alternativo](/src/assets/images/Integracion.png)
+  ![Texto alternativo](@/assets/images/Integracion.png)
 
 ## Explicación visual de las reglas de Integración Numérica
 

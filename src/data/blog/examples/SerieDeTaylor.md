@@ -225,7 +225,7 @@ Error estimado (residuo)     : 0.004288337295208584
 ### Grafica
 
 
-  ![Texto alternativo](/src/assets/images/SerieTaylor.png)
+  ![Texto alternativo](@/assets/images/SerieTaylor.png)
 
 
 ## Explicación visual de la serie de Taylor

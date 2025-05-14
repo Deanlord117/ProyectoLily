@@ -259,7 +259,7 @@ plt.show()
 ```
 
 ## Grafica
-  ![Texto alternativo](/src/assets/images/Seidel.png)
+  ![Texto alternativo](@/assets/images/Seidel.png)
 
 ## Explicación visual del Metodo de Gauss Seidel
 

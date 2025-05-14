@@ -322,7 +322,7 @@ print(x_values)
 Raíz aproximada: 3.000000000000001
 ```
   ## Grafica 
-  ![Texto alternativo](/src/assets/images/NewtonRapshon.png)
+  ![Texto alternativo](@/assets/images/NewtonRapshon.png)
 ## Explicacion visual
  <div class="video-wrapper">
   <div class="video-container">

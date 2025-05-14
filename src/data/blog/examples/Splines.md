@@ -333,7 +333,7 @@ plt.show()
 ```
 
   ## Grafica 
-  ![Texto alternativo](/src/assets/images/spline.gif)
+  ![Texto alternativo](@/assets/images/spline.gif)
 
    # Explicacion visual
  <div class="video-wrapper">

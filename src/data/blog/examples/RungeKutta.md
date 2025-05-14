@@ -428,7 +428,7 @@ Error absoluto = 3.75e-07
 ```
 
   ## Grafica 
-  ![Texto alternativo](/src/assets/images/RungeKutta.png)
+  ![Texto alternativo](@/assets/images/RungeKutta.png)
  # Explicacion visual
  <div class="video-wrapper">
   <div class="video-container">

@@ -237,7 +237,7 @@ El resultado de la interpolación en x = 2.5 es: 3.875
 
 
 ## Grafica
-  ![Texto alternativo](/src/assets/images/InterNewton.png)
+  ![Texto alternativo](@/assets/images/InterNewton.png)
 
 ## Explicaion visual de la interpolacion de newton
 

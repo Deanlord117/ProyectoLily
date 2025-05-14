@@ -387,7 +387,7 @@ Iteración 4: x = [0.33333333 2.33333333 0.66666667]
 ```
 
 ## Grafica
-  ![Texto alternativo](/src/assets/images/jacobi.png)
+  ![Texto alternativo](@/assets/images/jacobi.png)
 
 <div class="video-wrapper">
   <div class="video-container">
