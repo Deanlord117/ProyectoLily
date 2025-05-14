@@ -1,0 +1,49 @@
+---
+import { SHARE_LINKS } from "@/constants";
+import LinkButton from "./LinkButton.astro";
+
+const { title } = Astro.props;
+
+const urlObj = new URL(Astro.request.url);
+const fullUrl = `${urlObj.origin}${urlObj.pathname}`;
+
+
+const shareMessage = `Mira este post:  `;
+const encUrl     = encodeURIComponent(fullUrl);
+const encMsg     = encodeURIComponent(shareMessage);
+
+
+const finalLinks = SHARE_LINKS.map(link => {
+  if (link.name === "Facebook") {
+    return {
+      ...link,
+      href: `${link.href}${encUrl}&quote=${encMsg}`,
+    };
+  }
+
+  const content = encodeURIComponent(`${shareMessage} ${fullUrl}`);
+  return {
+    ...link,
+    href: `${link.href}${content}`,
+  };
+});
+---
+
+
+<div class="flex flex-col items-center gap-2">
+  <span class="italic">Comparte este post en:</span>
+  <div class="flex space-x-3">
+    {finalLinks.map(({ href, icon: Icon, linkTitle }) => (
+      <LinkButton
+        href={href}
+        title={linkTitle}
+        class="scale-90 p-2 hover:rotate-6"
+     
+      >
+        <Icon class="inline-block w-6 h-6 stroke-current stroke-2 opacity-90" />
+        <span class="sr-only">{linkTitle}</span>
+      </LinkButton>
+    ))}
+  </div>
+</div>
+

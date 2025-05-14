@@ -1,0 +1,11 @@
+{
+    "entryPoints": ["src/"],
+    "entryPointStrategy": "expand",
+    "out": "src/data/docs",                     // Carpeta donde saldrá el HTML
+    "plugin": ["typedoc-plugin-markdown"],                      // (opcional) si no quieres Markdown
+    "hideBreadcrumbs": true,
+    "hidePageTitle": false,
+    "includeVersion": true,    
+  }
+
+  

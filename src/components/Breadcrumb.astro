@@ -1,0 +1,72 @@
+---
+// Remove current url path and remove trailing slash if exists
+const currentUrlPath = Astro.url.pathname.replace(/\/+$/, "");
+
+// Get url array from path
+var breadcrumbList = currentUrlPath.split("/").slice(1);
+
+// Traducciones al español
+const translations: Record<string, string> = {
+  posts: "Posts",
+  tags: "Etiquetas",
+  categories: "Categorías",
+  about: "Acerca de",
+  archives: "Archivo",  
+};
+
+// Modificar rutas de posts
+if (breadcrumbList[0] === "posts") {
+  const page = breadcrumbList[1] || 1;
+  breadcrumbList.splice(0, 2, `${translations.posts} (página ${page})`);
+}
+
+// Modificar rutas de tags
+if (breadcrumbList[0] === "tags" && !isNaN(Number(breadcrumbList[2]))) {
+  const tag = breadcrumbList[1];
+  const page = breadcrumbList[2];
+  breadcrumbList.splice(
+    1,
+    3,
+    `${tag}${page === "1" ? "" : ` (página ${page})`}`
+  );
+}
+
+// Traducir segmentos restantes
+breadcrumbList = breadcrumbList.map(segment => {
+  const key = segment.toLowerCase();
+  return translations[key] !== undefined ? translations[key] : decodeURIComponent(segment);
+});
+---
+
+<nav class="mx-auto mt-8 mb-1 w-full max-w-3xl px-4" aria-label="breadcrumb">
+  <ul
+    class="font-light [&>li]:inline [&>li:not(:last-child)>a]:hover:opacity-100"
+  >
+    <li>
+      <a href="/" class="opacity-80">Inicio</a>
+      <span aria-hidden="true" class="opacity-80">&raquo;</span>
+    </li>
+    {
+      breadcrumbList.map((breadcrumb, index) =>
+        index + 1 === breadcrumbList.length ? (
+          <li>
+            <span
+              class:list={["capitalize opacity-75", { lowercase: index > 0 }]}
+              aria-current="page"
+            >
+              {/* make the last part lowercase in Home > Tags > some-tag */}
+              {decodeURIComponent(breadcrumb)}
+            </span>
+          </li>
+        ) : (
+          <li>
+            <a href={`/${breadcrumb}/`} class="capitalize opacity-70">
+              {breadcrumb}
+            </a>
+            <span aria-hidden="true">&raquo;</span>
+          </li>
+        )
+      )
+    }
+  </ul>
+</nav>
