@@ -120,7 +120,7 @@ const structuredData = {
         />
       )
     }
-
+  <ClientRouter />
     <!-- KaTeX CSS -->
     <link
       rel="stylesheet"
@@ -130,7 +130,16 @@ const structuredData = {
     <!-- Inline Theme Script -->
     <script is:inline src="/toggle-theme.js"></script>
 
-    <ClientRouter />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css"
+  />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css"
+/>
+
+  
   </head>
   <body>
     <slot />
