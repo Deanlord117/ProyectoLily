@@ -16,29 +16,35 @@ interface ArrayTitleProp {
 export type Props = StringTitleProp | ArrayTitleProp;
 
 const { props } = Astro;
-
 const backUrl = SITE.showBackButton ? Astro.url.pathname : "/";
 ---
 
 <Breadcrumb />
+
 <main
   data-backUrl={backUrl}
   id="main-content"
-  class="mx-auto w-full max-w-3xl px-4 pb-4"
+  class="container mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8 py-6"
 >
   {
     "titleTransition" in props ? (
-      <h1 class="text-2xl font-semibold sm:text-3xl">
+      <h1 class="text-3xl font-semibold sm:text-4xl lg:text-5xl flex items-center gap-2">
         {props.pageTitle[0]}
-        <span transition:name={props.titleTransition}>
+        <span transition:name={props.titleTransition} class="text-indigo-600">
           {props.pageTitle[1]}
         </span>
       </h1>
     ) : (
-      <h1 class="text-2xl font-semibold sm:text-3xl">{props.pageTitle}</h1>
+      <h1 class="text-3xl font-semibold sm:text-4xl lg:text-5xl">
+        {props.pageTitle}
+      </h1>
     )
   }
-  <p class="mt-2 mb-6 italic">{props.pageDesc}</p>
+  {props.pageDesc && (
+    <p class="mt-2 mb-6 italic text-gray-600 text-sm sm:text-base">
+      {props.pageDesc}
+    </p>
+  )}
   <slot />
 </main>
 
