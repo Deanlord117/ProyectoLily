@@ -145,7 +145,7 @@ Raíz encontrada con la tolerancia deseada.
 ### Grafica
 
 
-  ![Texto alternativo](/src/assets/images/Biseccion.png)
+  ![Texto alternativo](@/assets/images/Biseccion.png)
 
 ## Explicación visual del Metodo de Biseccíon
 
