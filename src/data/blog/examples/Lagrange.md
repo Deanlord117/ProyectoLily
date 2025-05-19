@@ -261,7 +261,7 @@ Polinomio de Lagrange:
   }
 </style>
 
-## Conslusión
+## Conclusión
 La interpolación de Lagrange es uno de los métodos más conocidos para la interpolación de funciones a través de un conjunto de puntos dados. Se basa en la construcción de un polinomio que pase por todos los puntos de datos, y su importancia radica en que proporciona una aproximación exacta cuando se tiene un número finito de puntos de muestra. Es ampliamente utilizada en problemas de ajuste de curvas y en la resolución de problemas de aproximación en diversas ramas de la ciencia y la ingeniería.
 
 Este método es relevante porque, a diferencia de otras técnicas de interpolación, no requiere resolver un sistema de ecuaciones lineales, lo que simplifica su implementación y hace que sea más accesible en cálculos manuales o computacionales. Su uso es esencial en la simulación de fenómenos físicos, la estimación de valores intermedios y el ajuste de datos experimentales (Atkinson, 2008).
