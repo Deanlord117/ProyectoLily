@@ -49,7 +49,10 @@ const structuredData = {
 ---
 
 <!doctype html>
-<html lang={`${SITE.lang ?? "en"}`} class={`${scrollSmooth && "scroll-smooth"}`}>
+<html
+  lang={`${SITE.lang ?? "en"}`}
+  class={`${scrollSmooth && "scroll-smooth"}`}
+>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
@@ -101,8 +104,7 @@ const structuredData = {
       is:inline
       set:html={JSON.stringify(structuredData)}
     />
- 
-     
+
     <!-- RSS -->
     <link
       rel="alternate"
@@ -120,7 +122,7 @@ const structuredData = {
         />
       )
     }
-  <ClientRouter />
+    <ClientRouter />
     <!-- KaTeX CSS -->
     <link
       rel="stylesheet"
@@ -129,23 +131,27 @@ const structuredData = {
 
     <!-- Inline Theme Script -->
     <script is:inline src="/toggle-theme.js"></script>
-
+    <!-- KaTeX CSS -->
     <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css"
-  />
-  <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    renderMathInElement(document.body, {
-      delimiters: [
-        { left: "$$", right: "$$", display: true },
-        { left: "\\(", right: "\\)", display: false },
-      ],
-    });
-  });
-</script>
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+    />
 
-  
+    <!-- KaTeX JS (Auto-render) -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+      onload="renderMathInElement(document.body, {
+    delimiters: [
+      { left: '$$', right: '$$', display: true },
+      { left: '$', right: '$', display: false },
+    ]
+  });"
+    ></script>
   </head>
   <body>
     <slot />

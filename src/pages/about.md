@@ -19,12 +19,6 @@ Denle ánimos a mi Mac, que aguantó horas y horas de trabajo sin descanso.
 
   ![Texto alternativo](@/assets/images/EscritorioFoto.jpg)
 
-¡Hola, raza! Soy Gael Les puedo decir que aquí no vas a encontrar solo teoría aburrida y fórmulas sin sentido; la idea es que cada método esté explicado de forma clara, con ejemplos prácticos y hasta su respectivo código en Python, porque sabemos que la práctica es lo que realmente cuenta.
-
-¿Qué onda, raza? Aquí Chavana al habla
-
- En este blog no hay teorías enredadas ni fórmulas que solo se quedan en el pizarrón; todo se aterriza con ejemplos claros y código en Python que puedes usar para tus proyectos. Además, siempre viene con su gráfica para que no solo lo entiendas, sino que también lo veas en acción.
-
 
 
 
