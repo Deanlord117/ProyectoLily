@@ -23,7 +23,7 @@ export const SOCIALS = [
   },
   {
     name: "Twitter",
-    href: "https://x.com/900_ddadrian",
+    href: "https://x.com/",
     linkTitle: `${SITE.title} on X`,
     icon: IconBrandX,
   },
